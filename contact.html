@@ -12,7 +12,217 @@
 </head>
 
 <body>
+    <!--Header begins-->
+    <header>
+        <input type="search" name="search" id="search">
+        <img src="ASSETS/rePrBean-Logo-Black.svg" alt="rePrBean Logo" class="logo">
+        <nav>
+            <div class="mobile-nav mobile">
+                <i class='bx bx-search search-icon'></i>
+                <i class='bx bx-menu menu-icon'></i>
+            </div>
 
+            <div class="menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="#" class="nav-link active">Contact</a>
+            </div>
+
+            <div class="desktop-nav desktop">
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="#" class="nav-link active">Contact</a>
+                </div>
+                <i class='bx bx-search search-icon'></i>
+            </div>
+        </nav>
+    </header>
+    <!--Header ends-->
+
+    <!--Hero Section begins-->
+    <section class="hero">
+        <div class="content">
+            <h1 class="hero-main-text">
+                CONTACT
+            </h1>
+            <p class="hero-sub-text">Get in Touch with Us</p>
+        </div>
+        <div class="href">
+            <a href="index.html" class="home-dir">Home</a> / <a href="#" class="contact-dir">Contact</a>
+        </div>
+    </section>
+    <!--Hero Section ends-->
+
+    <a href="#hero" class="back-to-top">
+        <i class='bx bxs-chevron-up'></i>
+    </a>
+
+    <!--Form section begins-->
+    <section class="form">
+        <div class="form-content">
+            <h2 class="form-content-main-text">Send us an Email</h2>
+            <form action="contact.html" method="post">
+                <div class="row-1">
+                    <label for="name">NAME*</label><br>
+                    <input type="text" name="name" id="name" aria-required="true"><br>
+
+                    <label for="email">EMAIL*</label><br>
+                    <input type="email" name="email" id="email" aria-required="true"><br>
+
+                    <label for="tel">PHONE</label><br>
+                    <input type="tel" name="tel" id="tel"><br>
+                </div>
+
+                <div class="row-2">
+                    <label for="subject">SUBJECT*</label><br>
+                    <input type="text" name="subject" id="subject" aria-required="true">
+
+                </div>
+
+                <div class="row-3">
+                    <label for="message">MESSAGE*</label><br>
+                    <textarea name="message" id="message" cols="30" rows="5" aria-required="true"></textarea>
+                </div>
+
+                <input type="submit" value="SEND MESSAGE">
+            </form>
+        </div>
+        <aside class="address">
+            <div class="address-box">
+                <h1 class="address-box-main-text">Headquarters</h1>
+                <p class="address-box-sub-text">
+                    795 Folsom Ave, Suite 600
+                    San Francisco, CA 94107
+                </p>
+            </div>
+
+            <div class="tel-box">
+                <p class="tel-box-content"><strong>Phone:</strong> +1 312 549 9694</p>
+                <p class="tel-box-content"><strong>Email:</strong> info@reprbean.com</p>
+            </div>
+
+            <div class="logo-box">
+                <a href="https://githib.com/devdesiign" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://linkedin.com/in/devdesiign" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+            </div>
+        </aside>
+    </section>
+    <!--Form section ends-->
+
+    <!--Footer begins-->
+    <footer>
+        <div class="footer-logo-holder">
+            <img src="ASSETS/rePrBean-Logo-Black.svg" alt="rePrBean Logo" class="logo">
+        </div>
+        <div class="links-to-pages">
+            <div class="product links">
+                <h3 class="links-to-pages-main">
+                    Product
+                </h3>
+                <ul class="links-to-pages-list">
+                    <li>
+                        <a href="#" class="footer-link">Find Journalist</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Create Press Releases</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Pitch the Media</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Manage Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Public Press Releases</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="community-links">
+                <h3 class="links-to-pages-main">
+                    Community
+                </h3>
+                <ul class="links-to-pages-list">
+                    <li>
+                        <a href="#" class="footer-link">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="learn-links">
+                <h3 class="links-to-pages-main">
+                    Learn
+                </h3>
+                <ul class="links-to-pages-list">
+                    <li>
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Product Updates</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Help Center</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="about-links">
+                <h3 class="links-to-pages-main">
+                    About
+                </h3>
+                <ul class="links-to-pages-list">
+                    <li>
+                        <a href="#" class="footer-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Terms of Service</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="links-divider">
+
+            <div class="copyright-links">
+                <p class="copyright-content">Copyrights © 2022 All Rights Reserved by rePrBean Inc.</p>
+                <div class="icon-container">
+                    <a href="https://githib.com/devdesiign" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://linkedin.com/in/devdesiign" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="mailto:devdesiign@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-gmail'></i>
+                    </a>
+                    <a href="https://twitter.com/devdesiign" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="https://instagram.com/dev.desiign" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://devdesiign.medium.com" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-medium'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer ends-->
 </body>
 
 </html>
