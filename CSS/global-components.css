@@ -1,0 +1,36 @@
+/* Social Media Scroll Begins */
+.media-handles {
+    margin-top: 36px;
+    background-color: rgba(211, 211, 211, 0.2);
+}
+
+.handles-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12%;
+}
+
+.media-links {
+    text-decoration: none;
+    color: transparent;
+    animation: slide-out 10s infinite linear forwards;
+}
+.start{
+    margin-left: 10%;
+}
+/* Animation */
+@keyframes slide-out {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100vw);
+    }
+
+}
+/* Social Media Scroll Ends */
