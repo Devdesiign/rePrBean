@@ -298,9 +298,8 @@ footer {
     background-size: cover;
     background-position: center;
     height: max-content;
-    width: 99vw;
+    width: 100%;
     padding: 48px 0px;
-
 }
 
 .testimonial-content {
