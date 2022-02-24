@@ -297,9 +297,10 @@ footer {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../ASSETS/testimonial-bg.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    height: max-content;
     width: 100vw;
     padding: 48px 0px;
+
 }
 
 .testimonial-content {
