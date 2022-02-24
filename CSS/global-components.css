@@ -294,7 +294,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background: url(../ASSETS/testimonial-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../ASSETS/testimonial-bg.jpg");
     background-size: cover;
     background-position: center;
     min-height: 80vh;
