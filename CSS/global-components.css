@@ -342,7 +342,7 @@ footer {
 /* Testimonial 1 Ends */
 
 /* All Media Queries */
-@media (min-width: 280px) and (max-width: 1024px) {
+@media (min-width: 280px) and (max-width: 1000px) {
     .testimonial-2 {
         box-sizing: border-box;
         justify-content: flex-start;
