@@ -241,13 +241,15 @@ footer {
 }
 
 .testimonial-2-content,
-.testimonial-content {
+.testimonial-content,
+.short-video-content {
     width: 40vw;
     padding: 36px;
 }
 
 .testimonial-2-main,
-.testimonial-main-text {
+.testimonial-main-text,
+.short-video-main-text {
     font-size: 3rem;
     margin-bottom: 0;
     color: #222;
@@ -265,10 +267,11 @@ footer {
 
 .testimonial-2-sub,
 .testimonial-sub-text,
-.customer-sub-text {
+.customer-sub-text,
+.short-video-sub-text {
     margin: 28px 0 36px;
     font-size: 1.04rem;
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     width: 84%;
 }
 
@@ -298,7 +301,7 @@ footer {
     background-size: cover;
     background-position: center;
     height: max-content;
-   
+
     margin: auto 0;
     padding: 48px 0px;
 }
@@ -341,6 +344,43 @@ footer {
 
 /* Testimonial 1 Ends */
 
+/* Short Video Begins */
+.short-video {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    height: max-content;
+    padding: 56px 24px;
+    box-sizing: border-box;
+}
+
+.short-video-holder {
+    width: 40vw;
+    height: 80vh;
+}
+
+.youtube-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    filter: drop-shadow(0 1px 16px rgba(68, 68, 68, 0.3));
+
+}
+
+.short-video-author-info {
+    font-weight: 600;
+    font-size: 1.04rem;
+}
+
+.youtube-icon {
+    color: rgb(200, 0, 0);
+    font-size: 1.2rem;
+}
+
+/*  Short Video Ends */
+
 /* All Media Queries */
 @media (min-width: 280px) and (max-width: 1000px) {
     .testimonial-2 {
@@ -358,6 +398,22 @@ footer {
         width: auto;
         margin-bottom: 24px;
     }
+
+    .short-video {
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .short-video-holder {
+        width: 90vw;
+    }
+
+    .short-video-content {
+        width: max-content;
+    }
+
+
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
