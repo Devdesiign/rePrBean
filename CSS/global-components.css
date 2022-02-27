@@ -495,7 +495,7 @@ footer {
 
     .short-video-holder {
         width: 100%;
-        max-height: 50%;
+        height: 40vh;
     }
 
     .youtube-video {
