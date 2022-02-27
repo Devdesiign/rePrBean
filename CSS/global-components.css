@@ -346,19 +346,24 @@ footer {
 
 /* Short Video Begins */
 .short-video {
+    border-top: 1px solid rgba(68, 68, 68, 0.3);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-start;
     width: 100%;
     height: max-content;
-    padding: 56px 24px;
+    padding: 56px 0px;
     box-sizing: border-box;
 }
 
 .short-video-holder {
-    width: 40vw;
-    height: 40vh;
+    width: 50%;
+    height: 50vh;
+}
+
+.short-video-content {
+    background-color: red;
 }
 
 .youtube-video {
@@ -402,15 +407,18 @@ footer {
     .short-video {
         justify-content: center;
         align-items: center;
-        max-width: 100%;
+        width: 100%;
     }
 
     .short-video-holder {
-        width: 90vw;
+        width: 80%;
+        height: 50vh;
     }
 
     .short-video-content {
-        width: max-content;
+        width: 100%;
+        padding-left: 12vw;
+        box-sizing: border-box;
     }
 
 
@@ -489,4 +497,12 @@ footer {
         padding: 0;
     }
 
+    .short-video-holder {
+        width: 100%;
+    }
+
+    .youtube-video {
+        filter: none;
+        border-radius: 0;
+    }
 }
