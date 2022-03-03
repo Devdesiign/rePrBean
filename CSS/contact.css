@@ -1,0 +1,61 @@
+.contact-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 24px 32px 48px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url('../ASSETS/contact-img-1.jpg');
+    background-position: center top;
+    background-size: cover;
+    min-height: 400px;
+    max-height: 40vh;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.contact-hero-main-text {
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.contact-hero-sub-text,
+.contact-dir {
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+
+.href a {
+    text-decoration: none;
+    font-size: 1.04rem;
+    color: #fff;
+    line-height: normal;
+}
+
+.home-dir {
+    opacity: 0.9;
+}
+
+.home-dir:hover {
+    opacity: 1;
+}
+
+
+
+
+
+/* Media Query */
+@media (max-width: 768px) {
+    .contact-hero {
+        min-height: 320px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact-content,
+    .href {
+        width: 100%;
+    }
+
+}

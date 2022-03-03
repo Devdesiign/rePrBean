@@ -80,7 +80,7 @@ footer {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    font-size: 1.02rem;
+    font-size: 1.04rem;
     color: white;
 }
 
@@ -257,7 +257,7 @@ footer {
 
 .company-show {
     margin-top: 8px;
-    font-size: 1.02rem;
+    font-size: 1.04rem;
     text-transform: lowercase;
     word-spacing: 2px;
     letter-spacing: 2px;
@@ -575,7 +575,7 @@ footer {
     }
 
     .PRS-content-main-text {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .PRS-sub {
