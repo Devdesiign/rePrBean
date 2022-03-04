@@ -41,8 +41,23 @@
     font-weight: 500;
 }
 
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 36px 32px 56px;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
 
+.contact-form-content {
+    width: 65%;
+}
 
+.address {
+    width: 25%;
+}
 
 
 /* Media Query */
