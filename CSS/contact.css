@@ -9,8 +9,7 @@
     background: linear-gradient(90deg, rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)), url('../ASSETS/contact-img-1.jpg');
     background-position: center top;
     background-size: cover;
-    min-height: 400px;
-    max-height: 40vh;
+    height: 400px;
     color: #fff;
     background-repeat: no-repeat;
 }
@@ -63,9 +62,9 @@
 /* Media Query */
 @media (max-width: 768px) {
     .contact-hero {
-        min-height: 360px;
+        min-height: 90vh;
         text-align: center;
-        justify-content: center;
+        align-items: center;
     }
 
     .contact-content,
